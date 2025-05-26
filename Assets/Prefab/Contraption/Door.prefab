@@ -132,6 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   closeDoor: {fileID: 8639428213421295281}
   openDoor: {fileID: 231475615897399625}
+  active: 0
   isDoor: 0
   reverse: 0
   isLift: 0
