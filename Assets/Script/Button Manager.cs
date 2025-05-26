@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
 {
-    int pressure = 0;
+    public int pressure = 0;
 
     [SerializeField] GameObject[] connected;
 
@@ -21,41 +21,68 @@ public class ButtonManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pressure >= 1)
-        {
-            foreach(GameObject connex in connected)
-            {
-                Script = connex.GetComponent<ActiveManager>();
-                if (Script == null)
-                    SideScript = connex.GetComponent<UseContraption>();
-                    SideScript.SetInactive();
-                Script.SetInactive();
-            }
-        } else {
-            foreach(GameObject connex in connected)
-            {
-                Script = connex.GetComponent<ActiveManager>();
-                if (Script == null)
-                    SideScript = connex.GetComponent<UseContraption>();
-                    SideScript.SetInactive();
-                Script.SetInactive();
-            }
-        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" || other.tag == "Friend")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Friend")
         {
             pressure += 1;
+            foreach(GameObject connex in connected)
+            {
+                Script = connex.GetComponent<ActiveManager>();
+                if (Script == null) {
+                    SideScript = connex.GetComponent<UseContraption>();
+                    if (SideScript == null)
+                    {
+                        SideScript.Activate();
+                    }
+                } else {
+                    Script.Activate();
+                }
+            }
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.tag == "Player" || other.tag == "Friend")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Friend")
         {
             pressure -= 1;
+            
+            if (pressure >= 1)
+            {
+                foreach(GameObject connex in connected)
+                {
+                    Script = connex.GetComponent<ActiveManager>();
+                    if (Script == null) {
+                        SideScript = connex.GetComponent<UseContraption>();
+                        if (SideScript == null)
+                        {
+                            SideScript.Activate();
+                        }
+                    } else {
+                        Script.Activate();
+                    }
+                }
+            } else {
+                foreach(GameObject connex in connected)
+                {
+                    Script = connex.GetComponent<ActiveManager>();
+                    if (Script == null)
+                    {
+                        SideScript = connex.GetComponent<UseContraption>();
+                        if (SideScript == null)
+                        {
+                            SideScript.Unactivate   ();
+                        }
+                    }
+                    else {
+                        Script.Unactivate();
+                    }
+                }
+            }
         }
     }
 }

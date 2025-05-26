@@ -6,12 +6,10 @@ public class ActiveManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] inputOutput;
 
-    private bool active;
+    public bool active;
 
     public ActiveManager Script;
     public UseContraption SideScript;
-
-    [SerializeField] private bool change;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +27,7 @@ public class ActiveManager : MonoBehaviour
         return active;
     }
 
-    public void SetActive()
+    public void Activate()
     {
         if (!active)
         {
@@ -37,15 +35,20 @@ public class ActiveManager : MonoBehaviour
             foreach (GameObject connex in inputOutput)
             {
                 Script = connex.GetComponent<ActiveManager>();
-                if (Script == null)
+                if (Script == null) {
                     SideScript = connex.GetComponent<UseContraption>();
-                    SideScript.SetActive();
-                Script.SetActive();
+                    if (SideScript != null)
+                    {
+                        SideScript.Activate();
+                    }
+                } else {
+                    Script.Activate();
+                }
             }
         }
     }
 
-    public void SetInactive()
+    public void Unactivate()
     {
         if (active)
         {
@@ -53,10 +56,15 @@ public class ActiveManager : MonoBehaviour
             foreach (GameObject connex in inputOutput)
             {
                 Script = connex.GetComponent<ActiveManager>();
-                if (Script == null)
+                if (Script == null) {
                     SideScript = connex.GetComponent<UseContraption>();
-                    SideScript.SetInactive();
-                Script.SetInactive();
+                    if (SideScript != null)
+                    {
+                        SideScript.Unactivate();
+                    }
+                } else {
+                    Script.Unactivate();
+                }
             }
         }
     }
