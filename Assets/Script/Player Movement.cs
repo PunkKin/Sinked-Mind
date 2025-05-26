@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private bool grounded;
 
     [SerializeField] private float speed;
+    [SerializeField] private float jumpSpeed = 3.5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) && grounded)
         {
-            rb.velocity = new Vector2(rb.velocity.x, 3.5f);
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
         }
     }
 
