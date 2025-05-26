@@ -11524,7 +11524,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c637ae02dd506a446a3902ae68f7e077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  followPlayer: 1
+  heldByPlayer: 0
   player: {fileID: 2107868670}
+  light: {fileID: 1332867790}
+  locked: 0
   speed: 2
 --- !u!4 &1789622103
 Transform:

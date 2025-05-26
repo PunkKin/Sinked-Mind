@@ -8,6 +8,10 @@ public class AI_Movement : MonoBehaviour
     [SerializeField] private bool heldByPlayer;
 
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject light;
+
+    public bool locked;
+    private bool touchingPlayer = false;
 
     private Rigidbody2D rb;
 
@@ -16,41 +20,46 @@ public class AI_Movement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        locked = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (!locked)
         {
-            Debug.Log("Held");
-            swapToHeld();
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("Stop");
-            if (followPlayer)
-                followPlayer = false;
-            else
-                followPlayer = true;
-        }
-
-        if (followPlayer && !heldByPlayer)
+            if (Input.GetKeyDown(KeyCode.Q) && touchingPlayer)
             {
-            if (transform.position.x + 0.25f < player.transform.position.x)
-            {
-                rb.velocity = new Vector2(speed, rb.velocity.y);
+                Debug.Log("Held");
+                swapToHeld();
             }
-            else if (transform.position.x - 0.25f > player.transform.position.x)
-            {
-                rb.velocity = new Vector2(speed * -1, rb.velocity.y);
-            }
-        }
 
-        if (heldByPlayer)
-        {
-            this.gameObject.transform.localPosition = new Vector2(0, 0.75f);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("Stop");
+                if (followPlayer)
+                    followPlayer = false;
+                else
+                    followPlayer = true;
+            }
+
+            if (followPlayer && !heldByPlayer)
+                {
+                if (transform.position.x + 0.25f < player.transform.position.x)
+                {
+                    rb.velocity = new Vector2(speed, rb.velocity.y);
+                }
+                else if (transform.position.x - 0.25f > player.transform.position.x)
+                {
+                    rb.velocity = new Vector2(speed * -1, rb.velocity.y);
+                }
+            }
+
+            if (heldByPlayer)
+            {
+                this.gameObject.transform.localPosition = new Vector2(0, 0.75f);
+            }
         }
     }
 
@@ -73,6 +82,27 @@ public class AI_Movement : MonoBehaviour
             rb.gravityScale = 0;
             rb.velocity = new Vector2(0, 0);
             this.gameObject.transform.localPosition = new Vector2(0, 0.75f);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "FriendPicker")
+        {
+            touchingPlayer = true;
+            if (locked == true)
+            {
+                light.SetActive(true);
+                locked = false;
+            }
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.tag == "FriendPicker")
+        {
+            touchingPlayer = false;
         }
     }
 }
