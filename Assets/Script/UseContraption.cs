@@ -19,10 +19,12 @@ public class UseContraption : MonoBehaviour
     [SerializeField] private Vector3 endingPoint;
 
     [SerializeField] private float speed;
+    private bool Door_Sound;
 
     // Start is called before the first frame update
     void Start()
     {
+        Door_Sound = false;
         
     }
 
@@ -45,16 +47,26 @@ public class UseContraption : MonoBehaviour
         active += 1;
         if (isDoor)
         {
+            Door_Sound = true;  
             if (reverse)
             {
                 closeDoor.SetActive(true);
                 openDoor.SetActive(false);
-                FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Close");
+                if(Door_Sound == true)
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Close");
+                }
+                Door_Sound = false;
             } 
             else 
             {
                 closeDoor.SetActive(false);
-                openDoor.SetActive(true); FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Open");
+                openDoor.SetActive(true);
+                if (Door_Sound == true)
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Open");
+                }
+                Door_Sound = false; 
             }
         }
     }
@@ -68,13 +80,21 @@ public class UseContraption : MonoBehaviour
             {
                 closeDoor.SetActive(false);
                 openDoor.SetActive(true);
-                FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Open");
+                if(Door_Sound == true);
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Open");
+                }
+                Door_Sound = false;
             } 
             else 
             {
                 closeDoor.SetActive(true);
                 openDoor.SetActive(false);
-                FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Close");
+                if (Door_Sound == true)
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Close");
+                }
+                Door_Sound = false;
             }
         }
     }
