@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hair Down
+      name: Hair Low
       rect:
         serializedVersion: 2
         x: 20
@@ -118,14 +118,14 @@ TextureImporter:
         width: 23
         height: 39
       alignment: 9
-      pivot: {x: 0.529299, y: 0.8283038}
+      pivot: {x: 0.5683655, y: 0.8686218}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a108642366aa8047860cfe634657418
-      internalID: 637798805
+      spriteID: 4b27d4fba5bafb743bba74eb162a297c
+      internalID: -1339227600
       vertices: []
       indices: 
       edges: []
@@ -134,19 +134,19 @@ TextureImporter:
       name: Hair Mid
       rect:
         serializedVersion: 2
-        x: 54
+        x: 53
         y: 118
-        width: 38
+        width: 39
         height: 50
       alignment: 9
-      pivot: {x: 0.56502354, y: 0.76056945}
+      pivot: {x: 0.6439929, y: 0.81897306}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fce500a00a3036741bfe004e4d5dead7
-      internalID: -838116310
+      spriteID: e640c875fa973bd4784ee05596b943d0
+      internalID: 336048659
       vertices: []
       indices: 
       edges: []
@@ -155,10 +155,10 @@ TextureImporter:
       name: Hair Top
       rect:
         serializedVersion: 2
-        x: 94
-        y: 129
-        width: 49
-        height: 38
+        x: 93
+        y: 128
+        width: 50
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c8e4915ec3334249a4783b993a06166
-      internalID: 1286440234
+      spriteID: dbd56760bc0e1e248989fa126d0f938d
+      internalID: -1884990372
       vertices: []
       indices: 
       edges: []
@@ -181,41 +181,41 @@ TextureImporter:
         width: 22
         height: 21
       alignment: 9
-      pivot: {x: 0.7450485, y: 0.3288545}
+      pivot: {x: 0.7654696, y: 0.29676384}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a958bdefd68035845b96db8d472c7faf
-      internalID: 769577914
+      spriteID: 9dca45352e6790244b7b219858ec0583
+      internalID: -897676346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Back Hair Down
+      name: Hair Behind Low
       rect:
         serializedVersion: 2
         x: 11
         y: 68
-        width: 40
-        height: 53
+        width: 41
+        height: 54
       alignment: 9
-      pivot: {x: 0.64039314, y: 0.8221093}
+      pivot: {x: 0.58218133, y: 0.87022173}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1903eb537f707b41a7846b9ba8c377e
-      internalID: 1908036795
+      spriteID: 8cd2536f64e644246b658f1f1a49dfcb
+      internalID: 364501505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Back Hair Up
+      name: Hair Behind Top
       rect:
         serializedVersion: 2
         x: 56
@@ -229,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acb92c063f6eaaf45b1c0702cc020682
-      internalID: -1433584668
+      spriteID: 48946473e1b6a4c49836c8390d458532
+      internalID: -1020882817
       vertices: []
       indices: 
       edges: []
@@ -244,35 +244,35 @@ TextureImporter:
         width: 44
         height: 43
       alignment: 9
-      pivot: {x: 0.49999982, y: -0.017168976}
+      pivot: {x: 0.49999982, y: 0.040294383}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d4e228e51b5ae74688ce47ce1817663
-      internalID: 1798931119
+      spriteID: 5bac98679e41f804cb8308c695575f3d
+      internalID: 1028114605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Side Hair
+      name: Hair Side
       rect:
         serializedVersion: 2
         x: 156
         y: 62
-        width: 18
+        width: 19
         height: 56
       alignment: 9
-      pivot: {x: 0.67220813, y: 0.87709206}
+      pivot: {x: 0.55911255, y: 0.86101085}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c724a55d3a2bcd446bbae92622a9897e
-      internalID: 915220403
+      spriteID: c39d51aafd056414b94766e91089280d
+      internalID: 1740305341
       vertices: []
       indices: 
       edges: []
@@ -286,14 +286,14 @@ TextureImporter:
         width: 14
         height: 23
       alignment: 9
-      pivot: {x: 0.51604474, y: 0.73439556}
+      pivot: {x: 0.50000006, y: 0.7246293}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8f82fff00a822c4a9e268acee69a07e
-      internalID: 503836474
+      spriteID: 3f194113aac88764f9ffbd1d55ddbda2
+      internalID: -169833253
       vertices: []
       indices: 
       edges: []
@@ -307,35 +307,35 @@ TextureImporter:
         width: 15
         height: 23
       alignment: 9
-      pivot: {x: 0.50000024, y: 0.7832275}
+      pivot: {x: 0.50000024, y: 0.68556315}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d88b69b87c6a50a44bac7f0db014edb9
-      internalID: -1733064271
+      spriteID: 925948f8e597a8b4cb3ee17e115d3f63
+      internalID: -1483195578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torso Upper
+      name: Torso
       rect:
         serializedVersion: 2
         x: 43
-        y: 28
+        y: 27
         width: 24
-        height: 33
+        height: 34
       alignment: 9
-      pivot: {x: 0.4695846, y: 0.101836115}
+      pivot: {x: 0.49064064, y: 0.19608991}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 407f1f0e69ae8cb41bc851a84e395c99
-      internalID: -1941207445
+      spriteID: 0bc055d36d0c32940a061932483aa5e4
+      internalID: -405146254
       vertices: []
       indices: 
       edges: []
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92dd5e346c36b6546913b441a1bc2165
-      internalID: -183598537
+      spriteID: 5e05dad553d048a49a59355efb460724
+      internalID: -1098925834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Left Leg Up
+      name: Let Leg Upper
       rect:
         serializedVersion: 2
         x: 116
@@ -370,20 +370,20 @@ TextureImporter:
         width: 14
         height: 21
       alignment: 9
-      pivot: {x: 0.5138375, y: 0.7398631}
+      pivot: {x: 0.48395485, y: 0.79950535}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d146a645efb8db4409b44f9d58dfed2c
-      internalID: -1060756534
+      spriteID: 8cf5c4d5a2a996e4f97c204a3582a5f5
+      internalID: 2027933458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Up
+      name: Right Leg Upper
       rect:
         serializedVersion: 2
         x: 135
@@ -391,14 +391,14 @@ TextureImporter:
         width: 14
         height: 20
       alignment: 9
-      pivot: {x: 0.5138375, y: 0.8099766}
+      pivot: {x: 0.5, y: 0.8032492}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd222762db8fe2d4894c445a659eaeee
-      internalID: -2082511382
+      spriteID: 12124c56d1885cb438468c366947e816
+      internalID: 173277761
       vertices: []
       indices: 
       edges: []
@@ -407,61 +407,61 @@ TextureImporter:
       name: Left Arm Down
       rect:
         serializedVersion: 2
-        x: 1
-        y: 9
-        width: 12
-        height: 23
+        x: 0
+        y: 7
+        width: 13
+        height: 27
       alignment: 9
-      pivot: {x: 0.46256176, y: 0.84110314}
+      pivot: {x: 0.48272082, y: 0.72462934}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d719f72febad7de429a1a52d56fddc03
-      internalID: 1150348272
+      spriteID: 6c31459fdf277194abcb496500cc8c38
+      internalID: -725169911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Arm Down
+      name: Right Arm Bot
       rect:
         serializedVersion: 2
-        x: 20
-        y: 9
-        width: 12
-        height: 23
+        x: 19
+        y: 8
+        width: 13
+        height: 27
       alignment: 9
-      pivot: {x: 0.48783413, y: 0.83007157}
+      pivot: {x: 0.5000003, y: 0.78286666}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f9177f3ba606f14f8f170f0618c1fd3
-      internalID: 2139540816
+      spriteID: 27593979f785af5488a2e90cf4a22d53
+      internalID: -1263089366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Torso Lower
+      name: Belly
       rect:
         serializedVersion: 2
         x: 43
-        y: 4
+        y: 3
         width: 26
-        height: 21
+        height: 23
       alignment: 9
-      pivot: {x: 0.4606938, y: 0.8251665}
+      pivot: {x: 0.48272088, y: 0.7636944}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e3a54f7985f1e74b8a2f2c81d4649ca
-      internalID: -165725834
+      spriteID: 15fdb176274a8824e9214b0d0f683313
+      internalID: 1933562985
       vertices: []
       indices: 
       edges: []
@@ -475,56 +475,56 @@ TextureImporter:
         width: 39
         height: 33
       alignment: 9
-      pivot: {x: 0.53974056, y: 0.8287628}
+      pivot: {x: 0.4999998, y: 0.80631214}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5cf421957fd1b545b98587114f41b16
-      internalID: -429866198
+      spriteID: da834bccad76e0c4fab0badba33fa672
+      internalID: -1949637054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Left Leg Down
+      name: Left Leg Lower
       rect:
         serializedVersion: 2
-        x: 117
+        x: 116
         y: 5
-        width: 14
-        height: 24
+        width: 15
+        height: 26
       alignment: 9
-      pivot: {x: 0.4584841, y: 0.82289237}
+      pivot: {x: 0.499999, y: 0.77646697}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3d1b1530b15775489c56f66d8836179
-      internalID: -2095931965
+      spriteID: 82287df3725182a44b65697a0fa02253
+      internalID: -1131525349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Down
+      name: Right Leg Lower
       rect:
         serializedVersion: 2
         x: 135
-        y: 6
+        y: 5
         width: 16
-        height: 25
+        height: 26
       alignment: 9
-      pivot: {x: 0.49999905, y: 0.78672826}
+      pivot: {x: 0.48596, y: 0.7937459}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1e65fee7336d6043bb58cba47452a29
-      internalID: 149604610
+      spriteID: 1fdf02cf36ee3c2489cefe12e0689e85
+      internalID: 1052170824
       vertices: []
       indices: 
       edges: []
@@ -540,26 +540,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Back Hair Down: 1908036795
-      Back Hair Up: -1433584668
-      Ear: 769577914
-      Eye: -183598537
-      Hair Down: 637798805
-      Hair Mid: -838116310
-      Hair Top: 1286440234
-      Head: 1798931119
-      Left Arm Down: 1150348272
-      Left Arm Up: 503836474
-      Left Leg Down: -2095931965
-      Left Leg Up: -1060756534
-      Right Arm Down: 2139540816
-      Right Arm Up: -1733064271
-      Right Leg Down: 149604610
-      Right Leg Up: -2082511382
-      Side Hair: 915220403
-      Skirt: -429866198
-      Torso Lower: -165725834
-      Torso Upper: -1941207445
+      Belly: 1933562985
+      Ear: -897676346
+      Eye: -1098925834
+      Hair Behind Low: 364501505
+      Hair Behind Top: -1020882817
+      Hair Low: -1339227600
+      Hair Mid: 336048659
+      Hair Side: 1740305341
+      Hair Top: -1884990372
+      Head: 1028114605
+      Left Arm Down: -725169911
+      Left Arm Up: -169833253
+      Left Leg Lower: -1131525349
+      Let Leg Upper: 2027933458
+      Right Arm Bot: -1263089366
+      Right Arm Up: -1483195578
+      Right Leg Lower: 1052170824
+      Right Leg Upper: 173277761
+      Skirt: -1949637054
+      Torso: -405146254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
