@@ -29,7 +29,8 @@ public class ButtonManager : MonoBehaviour
         if (other.gameObject.tag == "Player" || other.gameObject.tag == "Friend")
         {
             pressure += 1;
-            foreach(GameObject connex in connected)
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Pressure_Plate_Down");
+            foreach (GameObject connex in connected)
             {
                 Script = connex.GetComponent<ActiveManager>();
                 if (Script == null) {
@@ -50,7 +51,7 @@ public class ButtonManager : MonoBehaviour
         if (other.gameObject.tag == "Player" || other.gameObject.tag == "Friend")
         {
             pressure -= 1;
-            
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Pressure_Plate_Up");
             if (pressure >= 1)
             {
                 foreach(GameObject connex in connected)

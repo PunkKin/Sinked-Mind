@@ -1,5 +1,396 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9096123248439812489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Pressure_Plate_Down
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Pressure_Plate_Down
+  Guid:
+    Data1: 1879532403
+    Data2: 1313649215
+    Data3: -742495597
+    Data4: 1553803563
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-9042849681238368449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Jump
+  Guid:
+    Data1: -385961951
+    Data2: 1077057245
+    Data3: -1572140916
+    Data4: -1114932294
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8833549325332954926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Stop_Friend
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Stop_Friend
+  Guid:
+    Data1: 205233838
+    Data2: 1142432182
+    Data3: -279286107
+    Data4: -2052148210
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8785398599748018152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Landing
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Landing
+  Guid:
+    Data1: 1806006827
+    Data2: 1127034783
+    Data3: 279419791
+    Data4: -1590681806
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7234457616674504657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Sinked_Mind/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638839657732741017
+  FileSizes:
+  - Name: Desktop
+    Value: 1612
+  Exists: 1
+--- !u!114 &-7180318739392736402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Door_Open
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Door_Open
+  Guid:
+    Data1: 538860763
+    Data2: 1101810217
+    Data3: 719286453
+    Data4: -1388040460
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6971374874677456583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Walking_Friend
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Walking_Friend
+  Guid:
+    Data1: 383261374
+    Data2: 1233176086
+    Data3: -1408028783
+    Data4: -748430162
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6574573249112513231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Pressure_Plate_Up
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Pressure_Plate_Up
+  Guid:
+    Data1: 124935225
+    Data2: 1191990879
+    Data3: 371708051
+    Data4: -2064404459
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3163991925001400920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animation/Plunge
+  m_EditorClassIdentifier: 
+  Path: event:/Animation/Plunge
+  Guid:
+    Data1: 936683229
+    Data2: 1202250166
+    Data3: 321093311
+    Data4: 133884238
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2296772008802681670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Door_Close
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Door_Close
+  Guid:
+    Data1: -1614704568
+    Data2: 1193443288
+    Data3: -1947665997
+    Data4: -574407684
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2194751763202284964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Ambiance_Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Ambiance_Menu
+  Guid:
+    Data1: 1407410123
+    Data2: 1222440386
+    Data3: 1249521802
+    Data4: 553542541
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 43440
+--- !u!114 &-1984165848043816216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../FMOD Studio/Sinked_Mind/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638839657732720039
+  FileSizes:
+  - Name: Desktop
+    Value: 1096992
+  Exists: 1
+--- !u!114 &-1812801771687175718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animation/Free_Fall
+  m_EditorClassIdentifier: 
+  Path: event:/Animation/Free_Fall
+  Guid:
+    Data1: -1021139796
+    Data2: 1114070512
+    Data3: -568879441
+    Data4: -831833729
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1623331399627148699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/End/Ambiance_End
+  m_EditorClassIdentifier: 
+  Path: event:/End/Ambiance_End
+  Guid:
+    Data1: 885276142
+    Data2: 1162217895
+    Data3: 2140796350
+    Data4: 1771862986
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 43440
+--- !u!114 &-1106453885127887206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Follow_Friend
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Follow_Friend
+  Guid:
+    Data1: -623557072
+    Data2: 1122985331
+    Data3: -632462158
+    Data4: 136809469
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +403,234 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: -7234457616674504657}
+  - {fileID: -1984165848043816216}
+  EditorEvents:
+  - {fileID: 99433230359452209}
+  - {fileID: -9042849681238368449}
+  - {fileID: -8785398599748018152}
+  - {fileID: -1106453885127887206}
+  - {fileID: -6574573249112513231}
+  - {fileID: -2296772008802681670}
+  - {fileID: -9096123248439812489}
+  - {fileID: 2581133892411052680}
+  - {fileID: 2942046614200728397}
+  - {fileID: 369779291353699970}
+  - {fileID: -1812801771687175718}
+  - {fileID: -8833549325332954926}
+  - {fileID: -6971374874677456583}
+  - {fileID: -2194751763202284964}
+  - {fileID: -7180318739392736402}
+  - {fileID: 3527183873960716329}
+  - {fileID: -3163991925001400920}
+  - {fileID: 8739029714949098063}
+  - {fileID: -1623331399627148699}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
-  cacheVersion: 131624
+  MasterBanks:
+  - {fileID: -1984165848043816216}
+  StringsBanks:
+  - {fileID: -7234457616674504657}
+  cacheVersion: 131847
+  cacheTime: 638839657732741017
+  SerializableEventsDict:
+  - key: event:/Level/Lay_Friend
+    index: 0
+  - key: event:/Level/Jump
+    index: 1
+  - key: event:/Level/Landing
+    index: 2
+  - key: event:/Level/Follow_Friend
+    index: 3
+  - key: event:/Level/Pressure_Plate_Up
+    index: 4
+  - key: event:/Level/Door_Close
+    index: 5
+  - key: event:/Level/Pressure_Plate_Down
+    index: 6
+  - key: event:/Level/Carry_Friend
+    index: 7
+  - key: event:/Level/Walking
+    index: 8
+  - key: event:/End/Exit_Water
+    index: 9
+  - key: event:/Animation/Free_Fall
+    index: 10
+  - key: event:/Level/Stop_Friend
+    index: 11
+  - key: event:/Level/Walking_Friend
+    index: 12
+  - key: event:/Menu/Ambiance_Menu
+    index: 13
+  - key: event:/Level/Door_Open
+    index: 14
+  - key: event:/Level/Moving_Plateforme
+    index: 15
+  - key: event:/Animation/Plunge
+    index: 16
+  - key: event:/Level/Ambiance_Level
+    index: 17
+  - key: event:/End/Ambiance_End
+    index: 18
+--- !u!114 &99433230359452209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Lay_Friend
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Lay_Friend
+  Guid:
+    Data1: -2010531584
+    Data2: 1271401162
+    Data3: -777560910
+    Data4: 1654410960
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &369779291353699970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/End/Exit_Water
+  m_EditorClassIdentifier: 
+  Path: event:/End/Exit_Water
+  Guid:
+    Data1: -1801304931
+    Data2: 1122925607
+    Data3: -1624480835
+    Data4: -307473344
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2581133892411052680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Carry_Friend
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Carry_Friend
+  Guid:
+    Data1: -1821272691
+    Data2: 1321795931
+    Data3: -495121775
+    Data4: -1967031079
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2942046614200728397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Walking
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Walking
+  Guid:
+    Data1: -12052074
+    Data2: 1213925574
+    Data3: -227579205
+    Data4: 1507427258
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3527183873960716329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Moving_Plateforme
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Moving_Plateforme
+  Guid:
+    Data1: 1977948380
+    Data2: 1176851635
+    Data3: 177903259
+    Data4: 1673505696
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8739029714949098063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level/Ambiance_Level
+  m_EditorClassIdentifier: 
+  Path: event:/Level/Ambiance_Level
+  Guid:
+    Data1: -1811485463
+    Data2: 1333904156
+    Data3: -948042097
+    Data4: -1050154615
+  Banks:
+  - {fileID: -1984165848043816216}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 43440
