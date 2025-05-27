@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3306236313656501157}
   - component: {fileID: 9079262337291277863}
   m_Layer: 0
-  m_Name: Plateformes
+  m_Name: Plateformes Flipped
   m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.98, y: 0.5, z: 0}
-  m_LocalScale: {x: -2, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2483052849751663457}
