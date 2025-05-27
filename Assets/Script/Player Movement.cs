@@ -9,11 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private bool grounded;
 
     [SerializeField] private float speed;
-<<<<<<< Updated upstream
-=======
     [SerializeField] private float jumpSpeed = 3.5f;
     private bool Walk_Sound;
->>>>>>> Stashed changes
     // Start is called before the first frame update
     void Start()
     {
@@ -42,12 +39,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Space) && grounded)
         {
-<<<<<<< Updated upstream
             rb.velocity = new Vector2(rb.velocity.x, 3.5f);
-=======
             FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Jump");
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
->>>>>>> Stashed changes
         }
     }
 
