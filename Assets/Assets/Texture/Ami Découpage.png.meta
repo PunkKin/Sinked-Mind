@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: b53f69f67fa2ace4a9116ce0c4415e82
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hair Down
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 125
+        width: 23
+        height: 39
+      alignment: 9
+      pivot: {x: 0.529299, y: 0.8283038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a108642366aa8047860cfe634657418
+      internalID: 637798805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair Mid
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 118
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.56502354, y: 0.76056945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce500a00a3036741bfe004e4d5dead7
+      internalID: -838116310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hair Top
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 129
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8e4915ec3334249a4783b993a06166
+      internalID: 1286440234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ear
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 128
+        width: 22
+        height: 21
+      alignment: 9
+      pivot: {x: 0.7450485, y: 0.3288545}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a958bdefd68035845b96db8d472c7faf
+      internalID: 769577914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Hair Down
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 68
+        width: 40
+        height: 53
+      alignment: 9
+      pivot: {x: 0.64039314, y: 0.8221093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1903eb537f707b41a7846b9ba8c377e
+      internalID: 1908036795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Hair Up
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 73
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb92c063f6eaaf45b1c0702cc020682
+      internalID: -1433584668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 69
+        width: 44
+        height: 43
+      alignment: 9
+      pivot: {x: 0.49999982, y: -0.017168976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4e228e51b5ae74688ce47ce1817663
+      internalID: 1798931119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Side Hair
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 62
+        width: 18
+        height: 56
+      alignment: 9
+      pivot: {x: 0.67220813, y: 0.87709206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c724a55d3a2bcd446bbae92622a9897e
+      internalID: 915220403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Arm Up
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 14
+        height: 23
+      alignment: 9
+      pivot: {x: 0.51604474, y: 0.73439556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f82fff00a822c4a9e268acee69a07e
+      internalID: 503836474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Arm Up
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.7832275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88b69b87c6a50a44bac7f0db014edb9
+      internalID: -1733064271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torso Upper
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 28
+        width: 24
+        height: 33
+      alignment: 9
+      pivot: {x: 0.4695846, y: 0.101836115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407f1f0e69ae8cb41bc851a84e395c99
+      internalID: -1941207445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eye
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 50
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dd5e346c36b6546913b441a1bc2165
+      internalID: -183598537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Leg Up
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 40
+        width: 14
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5138375, y: 0.7398631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d146a645efb8db4409b44f9d58dfed2c
+      internalID: -1060756534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Leg Up
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 41
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5138375, y: 0.8099766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd222762db8fe2d4894c445a659eaeee
+      internalID: -2082511382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Arm Down
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 12
+        height: 23
+      alignment: 9
+      pivot: {x: 0.46256176, y: 0.84110314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d719f72febad7de429a1a52d56fddc03
+      internalID: 1150348272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Arm Down
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 9
+        width: 12
+        height: 23
+      alignment: 9
+      pivot: {x: 0.48783413, y: 0.83007157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9177f3ba606f14f8f170f0618c1fd3
+      internalID: 2139540816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torso Lower
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 4
+        width: 26
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4606938, y: 0.8251665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3a54f7985f1e74b8a2f2c81d4649ca
+      internalID: -165725834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skirt
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 39
+        height: 33
+      alignment: 9
+      pivot: {x: 0.53974056, y: 0.8287628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cf421957fd1b545b98587114f41b16
+      internalID: -429866198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Leg Down
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 5
+        width: 14
+        height: 24
+      alignment: 9
+      pivot: {x: 0.4584841, y: 0.82289237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d1b1530b15775489c56f66d8836179
+      internalID: -2095931965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Leg Down
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 6
+        width: 16
+        height: 25
+      alignment: 9
+      pivot: {x: 0.49999905, y: 0.78672826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e65fee7336d6043bb58cba47452a29
+      internalID: 149604610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Back Hair Down: 1908036795
+      Back Hair Up: -1433584668
+      Ear: 769577914
+      Eye: -183598537
+      Hair Down: 637798805
+      Hair Mid: -838116310
+      Hair Top: 1286440234
+      Head: 1798931119
+      Left Arm Down: 1150348272
+      Left Arm Up: 503836474
+      Left Leg Down: -2095931965
+      Left Leg Up: -1060756534
+      Right Arm Down: 2139540816
+      Right Arm Up: -1733064271
+      Right Leg Down: 149604610
+      Right Leg Up: -2082511382
+      Side Hair: 915220403
+      Skirt: -429866198
+      Torso Lower: -165725834
+      Torso Upper: -1941207445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
