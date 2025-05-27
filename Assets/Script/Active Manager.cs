@@ -6,6 +6,9 @@ public class ActiveManager : MonoBehaviour
 {
     [SerializeField] private GameObject[] inputOutput;
 
+    [SerializeField] private Sprite[] cableSprites;
+    private Sprite newSprite;
+
     public bool active;
 
     public ActiveManager Script;
@@ -31,6 +34,8 @@ public class ActiveManager : MonoBehaviour
     {
         if (!active)
         {
+            newSprite = cableSprites[1];
+            gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
             active = true;
             foreach (GameObject connex in inputOutput)
             {
@@ -52,6 +57,8 @@ public class ActiveManager : MonoBehaviour
     {
         if (active)
         {
+            newSprite = cableSprites[0];
+            gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
             active = false;
             foreach (GameObject connex in inputOutput)
             {
