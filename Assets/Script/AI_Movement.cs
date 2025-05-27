@@ -14,6 +14,7 @@ public class AI_Movement : MonoBehaviour
     private bool touchingPlayer = false;
 
     private Rigidbody2D rb;
+    private bool Walk_Sound;
 
     [SerializeField] private float speed;
     // Start is called before the first frame update
@@ -22,6 +23,7 @@ public class AI_Movement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         locked = true;
+        Walk_Sound = false;
     }
 
     // Update is called once per frame
@@ -33,15 +35,22 @@ public class AI_Movement : MonoBehaviour
             {
                 Debug.Log("Held");
                 swapToHeld();
+                
             }
 
             if (Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("Stop");
                 if (followPlayer)
+                {
                     followPlayer = false;
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Stop_Friend");
+                }
                 else
+                {
                     followPlayer = true;
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Follow_Friend");
+                }
             }
 
             if (followPlayer && !heldByPlayer)
@@ -49,10 +58,25 @@ public class AI_Movement : MonoBehaviour
                 if (transform.position.x + 0.25f < player.transform.position.x)
                 {
                     rb.velocity = new Vector2(speed, rb.velocity.y);
+                    if(!Walk_Sound) 
+                    {
+                        FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Walking_Friend");
+                        Walk_Sound=true;
+                    }
+                    
                 }
                 else if (transform.position.x - 0.25f > player.transform.position.x)
                 {
                     rb.velocity = new Vector2(speed * -1, rb.velocity.y);
+                    if (!Walk_Sound)
+                    {
+                        FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Walking_Friend");
+                        Walk_Sound = true;
+                    }                    
+                }
+                else
+                {
+                    Walk_Sound = false;
                 }
             }
 
@@ -73,6 +97,7 @@ public class AI_Movement : MonoBehaviour
             rb.gravityScale = 1;
             this.gameObject.transform.parent = null;
             Debug.Log("Not Holden");
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Carry_Friend");
         }
         else
         {
@@ -82,6 +107,7 @@ public class AI_Movement : MonoBehaviour
             rb.gravityScale = 0;
             rb.velocity = new Vector2(0, 0);
             this.gameObject.transform.localPosition = new Vector2(0, 0.75f);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Lay_Friend");
         }
     }
 

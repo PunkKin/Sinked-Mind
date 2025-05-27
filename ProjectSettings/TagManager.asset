@@ -8,6 +8,8 @@ TagManager:
   - FriendPicker
   - Friend
   - Terrain
+  - End
+  - Menu
   layers:
   - Default
   - TransparentFX

@@ -36,6 +36,7 @@ public class UseContraption : MonoBehaviour
         else if (isLift && active >= 1 && transform.position != endingPoint)
         {
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, endingPoint, speed * Time.deltaTime);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Moving_Plateforme");
         }
     }
 
@@ -48,9 +49,12 @@ public class UseContraption : MonoBehaviour
             {
                 closeDoor.SetActive(true);
                 openDoor.SetActive(false);
-            } else {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Close");
+            } 
+            else 
+            {
                 closeDoor.SetActive(false);
-                openDoor.SetActive(true);
+                openDoor.SetActive(true); FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Open");
             }
         }
     }
@@ -64,9 +68,13 @@ public class UseContraption : MonoBehaviour
             {
                 closeDoor.SetActive(false);
                 openDoor.SetActive(true);
-            } else {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Open");
+            } 
+            else 
+            {
                 closeDoor.SetActive(true);
                 openDoor.SetActive(false);
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Door_Close");
             }
         }
     }
