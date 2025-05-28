@@ -20,11 +20,12 @@ public class UseContraption : MonoBehaviour
 
     [SerializeField] private float speed;
     private bool Door_Sound;
-
+    private bool Move_Sound;
     // Start is called before the first frame update
     void Start()
     {
         Door_Sound = false;
+        Move_Sound = false;
         
     }
 
@@ -37,13 +38,21 @@ public class UseContraption : MonoBehaviour
         }
         else if (isLift && active >= 1 && transform.position != endingPoint)
         {
+            Move_Sound = true;
             gameObject.transform.position = Vector3.MoveTowards(gameObject.transform.position, endingPoint, speed * Time.deltaTime);
-            FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Moving_Plateforme");
         }
     }
 
     public void Activate()
     {
+        if (isLift) 
+        {
+            if (Move_Sound == true)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Moving_Plateforme");
+            }
+            Move_Sound = false;
+        }
         active += 1;
         if (isDoor)
         {
@@ -73,6 +82,14 @@ public class UseContraption : MonoBehaviour
     
     public void Unactivate()
     {
+        if (isLift)
+        {
+            if (Move_Sound == true)
+            {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Level/Moving_Plateforme");
+            }
+            Move_Sound = false;
+        }
         active -= 1;
         if (isDoor && active < 1)
         {
